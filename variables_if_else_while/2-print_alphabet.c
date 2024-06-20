@@ -6,11 +6,12 @@
  */
 int main(void)
 {
-int (c == 'a' <= 'z')
-	int (c++)
+int c;
+for (c = 'a'; c <= 'z'; c++)
 {
 putchar(c);
 }
+putchar('\n');
 return (0);
 }
 
