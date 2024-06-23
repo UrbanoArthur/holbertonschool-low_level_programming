@@ -4,8 +4,10 @@
 /**
  * main - ooo
  * print_alphabet - ooo
- * int _islower - ooo
- * c - oo
+ *
+ * _islower - Checks if a character is a lowercase letter
+ *
+ * @c: oo
  * Return: 0
  */
 int _islower(int c)
