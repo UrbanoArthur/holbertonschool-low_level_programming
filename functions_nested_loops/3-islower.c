@@ -8,13 +8,11 @@
  * c - oo
  * Return: 0
  */
-void print_alphabet(void)
+int _islower(int c)
 {
-char c;
-
-for (c = 'a'; c <= 'z'; c++)
+	if (c >= 'a' && c <= 'z')
 {
-_putchar(c);
+	return (1);
 }
-_putchar('\n');
+return (0);
 }
