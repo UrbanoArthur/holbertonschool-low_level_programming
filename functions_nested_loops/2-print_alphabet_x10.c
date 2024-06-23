@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet - ooo
+ * print_alphabet_x10 - ooo
  *
  * Return: 0
  */
