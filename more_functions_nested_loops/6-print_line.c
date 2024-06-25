@@ -2,8 +2,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * n - ooo
  * print_line - ooo
+ * @n: ooo
+ * Return: ooo
+ *
  */
 void print_line(int n)
 
