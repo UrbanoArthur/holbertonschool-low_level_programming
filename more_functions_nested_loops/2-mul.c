@@ -9,8 +9,5 @@
 int mul(int a, int b)
 
 {
-putchar(a * b);
-{
 return (a * b);
-}
 }
