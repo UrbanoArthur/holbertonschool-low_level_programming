@@ -2,12 +2,14 @@
 #include <stdio.h>
 #include "main.h"
 /**
+ * n - ooo
  * print_line - ooo
  */
 void print_line(int n)
 
 {
 	int i;
+
 	for (i = 0; i < n; i++)
 	{
 		_putchar('_');
