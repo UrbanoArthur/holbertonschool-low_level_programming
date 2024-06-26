@@ -2,8 +2,8 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- *
- *
+ * reset_to_98 - ooo
+ * @n: ooo
  *
  */
 
