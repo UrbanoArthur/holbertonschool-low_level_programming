@@ -2,7 +2,8 @@
 #include "main.h"
 #include <string.h>
 /**
- *
+ * puts2 - ooo
+ * @str: ooo
  */
 void puts2(char *str)
 
