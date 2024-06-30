@@ -4,13 +4,12 @@
 /**
  * print_rev - ooo
  * @s: ooo
- *
  */
 
 void print_rev(char *s)
 
 {
-	int i;
+	int i = 0;
 
 	while (*s != '\0')
 	{
