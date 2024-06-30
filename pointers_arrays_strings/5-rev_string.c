@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *
- *
- *
+ * rev_string - ooo
+ * @s: ooo
  */
 void rev_string(char *s)
 
@@ -19,8 +18,8 @@ void rev_string(char *s)
 	for (j = 0; j < i / 2; j++)
 	{
 		k = s[j];
-		s[j] = s[i -1 - j];
-		s[i -1 - j] = k;
+		s[j] = s[i - 1 - j];
+		s[i - 1 - j] = k;
 	}
 }
 
