@@ -1,25 +1,21 @@
 #include "main.h"
+#include <stdio.h>
+/**
+ *
+ *
+ */
+
 void times_table(void)
-
 {
-int p = 0;
-int o = 0;
-
-{
-for (p = 0; p <= 9; p++)
-{
-for(o = 0; o <= 9; o++)
-{
-_putchar('0' + p * o / 10);
-_putchar('0' + p * o % 10);
-{
-if (p == '9')
-{
-_putchar('\n');
-}
-_putchar('\n');
-}
-}
-}
-}
+	int chiffre1, chiffre2;
+	int product;
+	for (chiffre1 = 0; chiffre1 < 10; chiffre1++)
+	{
+		for (chiffre2 = 0; chiffre2 < 10; chiffre2++)
+		{
+			product = chiffre1 * chiffre2;
+		_putchar("%d", chiffre1);
+		_putchar("%d", chiffre2);
+	}
+	_putchar('\n');
 }
