@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
+ * create_array - ooo
  * @size: ooo
  * @c: ooo
- * create_array - ooo
  * Return: ooo
  */
 char *create_array(unsigned int size, char c)
@@ -13,10 +13,11 @@ char *create_array(unsigned int size, char c)
 	char *p;
 
 	if (size == 0)
-        {
-                return (NULL);
-        }	
+	{
+		return (NULL);
+	}
 	p = malloc(size * sizeof(char));
+
 	if (p == NULL)
 	{
 		return (NULL);
