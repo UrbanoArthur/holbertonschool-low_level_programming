@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- *
+ * free_grid - ooo
+ * @grid: ooo
+ * @height: ooo
  */
 void free_grid(int **grid, int height)
 {
@@ -17,4 +19,4 @@ void free_grid(int **grid, int height)
 			free(grid[a]);
 		}
 		free(grid);
-}	
+}
